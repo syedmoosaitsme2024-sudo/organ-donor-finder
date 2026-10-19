@@ -1,0 +1,123 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Organ Donor and Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Organ Donor and Finder</h1>
+        <p>Give the Gift of Life</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#donor">Donor Registration</a>
+        <a href="#request">Organ Request</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>
+                Organ donation is a meaningful way to help save lives.
+                Our website provides information about organ donation
+                and sample forms for donors and people seeking assistance.
+            </p>
+        </section>
+
+        <section id="about">
+            <h2>About Organ Donation</h2>
+            <p>
+                Organ donation involves donating an organ or tissue
+                to help another person, subject to medical suitability
+                and applicable laws.
+            </p>
+        </section>
+
+        <section id="donor">
+            <h2>Donor Registration</h2>
+
+            <form>
+                <label for="donorname">Full Name:</label>
+                <input type="text" id="donorname" required>
+
+                <label for="donoremail">Email:</label>
+                <input type="email" id="donoremail" required>
+
+                <label for="organ">Organ Donation Interest:</label>
+                <select id="organ">
+                    <option>Kidney</option>
+                    <option>Liver</option>
+                    <option>Heart</option>
+                    <option>Eye / Cornea</option>
+                    <option>Other</option>
+                </select>
+
+                <button type="button">Register</button>
+            </form>
+
+            <p class="note">
+                Demonstration form only. Information is not saved.
+            </p>
+        </section>
+
+        <section id="request">
+            <h2>Organ Request Information</h2>
+
+            <p>
+                People seeking an organ transplant should consult
+                an authorized transplant hospital or medical team.
+                Organ allocation must follow applicable medical
+                and legal procedures.
+            </p>
+
+            <form>
+                <label for="requestname">Name:</label>
+                <input type="text" id="requestname">
+
+                <label for="requestemail">Email:</label>
+                <input type="email" id="requestemail">
+
+                <label for="requiredorgan">Required Organ:</label>
+                <select id="requiredorgan">
+                    <option>Kidney</option>
+                    <option>Liver</option>
+                    <option>Heart</option>
+                    <option>Other</option>
+                </select>
+
+                <button type="button">Submit Request</button>
+            </form>
+
+            <p class="note">
+                This demo does not process requests or match donors.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: syedmoosaitsme2026@gmail.com</p>
+            <p>Project: First-Year Fundamentals of Full Stack</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Organ Donor and Finder Website | Mini Project</p>
+        <p>Created by: Syed Moosa</p>
+    </footer>
+
+</body>
+</html>
+```
